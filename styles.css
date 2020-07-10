@@ -1,8 +1,16 @@
+body{
+    background-image: url(./Images/books-sculpture-write-reading-34627\ \(1\).jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
 nav{background-color: #eeeeee;
     margin: 0;
     padding: 0;
     position: relative;
     bottom:16px;
+    width: 105%;
 }
 
 
@@ -24,6 +32,7 @@ ul > h1{
 }
 
 
+
 .firstpagetext{
                   text-align: center;                    
                   width: 30%;
@@ -31,8 +40,14 @@ ul > h1{
                   position: relative;
                   right: 30%;
                   top: 120px;
+                  opacity: 0.5;
+                  color: #eeeeee;
+                  background-color: black;
+               
+}  
+#landingpage{
+    background-color: ;
 }
-
 
 .myphoto{
     background-image:url(./Images/profile\ picture.jpg);
@@ -42,6 +57,7 @@ ul > h1{
     border-radius: 100%;
     float: left;
     margin: 4%;
+    opacity: 1;
 }
 
 .aboutme{
@@ -55,6 +71,9 @@ ul > h1{
     border-left: solid black 1px;
     border-right: solid black 1px;
     box-shadow: 2px 2px 50px black;
+    opacity: 0.5;
+    color: #eeeeee;
+    background-color: black;
 }
 #aboutme{
 
@@ -65,5 +84,4 @@ ul > h1{
     
     
 }
-
-             
+       
