@@ -37,10 +37,8 @@ ul > h1{
 .myphoto{
     background-image:url(./Images/profile\ picture.jpg);
     background-size: cover;
-    
     width: 400px;
     height: 400px;
-    
     border-radius: 100%;
     float: left;
     margin: 4%;
