@@ -118,11 +118,35 @@ ul > h1{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-#actualhobbies > img{
-    width: 100px;
-    padding: 5%;
-    background-color: #eeeeee;
+#actualhobbies > div >img{
+    width: 20%;
+    padding: 2%;
+    background-color: white;
     border: 3px solid black;
 }
-
+#reading{
+    position: relative;
+    left: 20%;
+    top: 110px;
+   
+   
+}
+#medical{
+    position: relative;
+    top: 60px;
+    right: 1%;
+    transform: rotate(330deg);
+}
+#music{
+    position: relative;
+    left: 65%;
+    bottom: 420px;
+    transform: rotate(5deg);
+}
+#watching{
+    position: relative;
+    left: 65%;
+    bottom: 22px;
+    transform: rotate(30deg);
+}
              
