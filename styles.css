@@ -110,7 +110,13 @@ ul > h1{
 .hobbies{
     position: absolute;
     top: 210%;
-    
+    width: 100%;
+}
+#actualhobbies{
+    width: 100% ;
+    background-image: url(./Images/Hobbies\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 #actualhobbies > img{
     width: 100px;
