@@ -90,5 +90,19 @@ ul > h1{
     top: 120%;
     left: 30%;
 }
+#skillsandhobbies{
+    position: absolute;
+    top: 160%;
+    
+}
+
+#skillsandhobbies > p{
+    width: 40%;
+    float: right;
+}
+#skillsandhobbies > h1{
+   float: left;
+   margin-left: 15%;
+}
 
              
