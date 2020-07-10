@@ -1,0 +1,19 @@
+nav{background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom:16px;
+
+    }
+    ul{display: flex;
+        justify-content: center;
+        list-style: none;
+        align-items: center;
+        height:80px;
+     }
+     li{
+        padding: 8%;
+        }
+    ul>h1{
+            padding: 8%;
+        }
