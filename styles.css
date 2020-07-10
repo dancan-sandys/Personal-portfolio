@@ -42,7 +42,28 @@ ul > h1{
     border-radius: 100%;
     float: left;
     margin: 4%;
- }
+}
 
+.aboutme{
+    width: 70%;
+    height: 40%;
+    background-color: ffffff;
+    position: absolute;
+    top: 70%;
+    left: 13%;
+    border-top: solid black 3px;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    box-shadow: 2px 2px 50px black;
+}
+#aboutme{
+
+    width: 70%;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    
+    
+}
 
              
