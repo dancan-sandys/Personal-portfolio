@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 nav{background-color: #eeeeee;
     margin: 0;
     padding: 0;
@@ -55,9 +58,21 @@ ul > h1{
     text-align: center;
     
 }
+#skillsandhobbies > h1{
+  text-align: center;
+ }
 
-
-
+ #hobbies > h1{
+    text-align: center;
+}
+#actualhobbies > div >img{
+    width: 20%;
+    padding: 2%;
+    border: 3px solid black;
+    background-image: url(./Images/close-up-photography-of-two-clothespins-776633.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 @media screen and (min-width:500px){
 body{
@@ -157,9 +172,6 @@ ul > h1{
     width: 100%;
     height: 50px;
     
-}
-#hobbies > h1{
-    text-align: center;
 }
 #actualhobbies{
     width: 100% ;
