@@ -151,8 +151,12 @@ a{
     text-decoration: none;
 }
 
-a:hover{
-    color: white;
+nav > ul > li > a:hover{
+    text-shadow:5px 5px 4px black;
+}
+
+nav > ul > h1 > a:hover{
+    text-shadow:5px 5px 4px black;
 }
 
 #footer{
