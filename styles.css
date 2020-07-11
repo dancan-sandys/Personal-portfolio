@@ -25,8 +25,36 @@ ul > h1{
     text-align: center;                    
     width: 100%;
 }  
-
-
+.myphoto{
+    background-image:url(./Images/profile\ picture.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    margin: 4%;
+    position: relative;
+    left: 10%;
+   
+}
+.aboutme{
+    margin:1%;
+    width: 90%;
+    height: 70%;
+    padding: 6%;
+    background-color: ffffff;
+    border-top: solid black 0.5px;
+    border-left: solid black 0.5px;
+    border-right: solid black 0.5px;
+    box-shadow: 2px 2px 50px black;
+   
+}
+.aboutme:hover{
+    background-color: #eeeeee;
+}
+#projects{
+    text-align: center;
+    
+}
 
 
 
