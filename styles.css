@@ -1,6 +1,7 @@
 body{
     overflow-x: hidden;
 }
+
 nav{background-color: #eeeeee;
     margin: 0;
     padding: 0;
@@ -19,6 +20,7 @@ ul{display: flex;
 li{
     padding: 5%;
 }
+
 ul > h1{
     padding: 3%;
 }
@@ -28,6 +30,7 @@ ul > h1{
     text-align: center;                    
     width: 100%;
 }  
+
 .myphoto{
     background-image:url(./Images/profile\ picture.jpg);
     background-size: cover;
@@ -39,32 +42,42 @@ ul > h1{
     left: 10%;
    
 }
+
 .aboutme{
     margin:1%;
     width: 90%;
     height: 70%;
     padding: 6%;
-    background-color: ffffff;
     border-top: solid black 0.5px;
     border-left: solid black 0.5px;
     border-right: solid black 0.5px;
     box-shadow: 2px 2px 50px black;
    
 }
-.aboutme:hover{
-    background-color: #eeeeee;
-}
+
+
+
 #projects{
     text-align: center;
     
 }
+
 #skillsandhobbies > h1{
   text-align: center;
  }
 
- #hobbies > h1{
+ #hobbies{
+     width: 100%;
+ }
+
+ #hobbies > div > h1{
     text-align: center;
+    margin-bottom: 0;
+    position: relative;
+    top: 70px;
+    color: #eeeeee;
 }
+
 #actualhobbies > div >img{
     width: 20%;
     padding: 2%;
@@ -74,7 +87,69 @@ ul > h1{
     background-size: cover;
 }
 
-@media screen and (min-width:500px){
+#actualhobbies{
+    width: 100% ;
+    background-image: url(./Images/close-up-of-wooden-plank-326311.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    
+}
+
+#reading{
+  position: relative;
+  left: 10%;
+}
+
+#medical{
+    position: relative;
+    left: 65%;
+    bottom: 140px;
+}
+
+#music{
+    position: relative;
+    left: 10%;
+    bottom: 50px;
+}
+
+#watching{
+    position: relative;
+    left: 65%;
+    bottom: 190px;
+}
+
+#icons > a{
+    margin-right: 2%;
+    margin-left: 2%;
+    
+}
+
+#icons{
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #5BC0DE;
+}
+
+#footer{
+    width: 100%;
+    text-align: center;
+    background-color: #eeeeee;
+   
+}
+   
+
+
+
+@media screen and (min-width:1000px){
 body{
     overflow-x: hidden;
     background-image: url(./Images/books-sculpture-write-reading-34627\ \(1\).jpg);
@@ -121,19 +196,18 @@ ul > h1{
 
 .aboutme{
     width: 70%;
-    height: 55%;
-    background-color: ffffff;
+    height: 17%;
     position: absolute;
     top: 70%;
-    left: 13%;
+    left: 10%;
     border-top: solid black 3px;
     border-left: solid black 1px;
     border-right: solid black 1px;
-    box-shadow: 2px 2px 50px black;
+    box-shadow: 2px 80px 50px black;
     opacity: 0.7;
-    color: #eeeeee;
-    
-    background-color: black;
+    color: white;
+    background-color:black;
+    font: weight 500;
 }
 #aboutme{
 
@@ -148,12 +222,12 @@ ul > h1{
 #projects{
     text-align: center;
     position: absolute;
-    top: 128%;
+    top: 150%;
     left: 17%;
 }
 #skillsandhobbies{
     position: absolute;
-    top: 178%;
+    top: 200%;
     
 }
 
@@ -171,72 +245,50 @@ ul > h1{
     top: 210%;
     width: 100%;
     height: 50px;
+ 
     
 }
 #actualhobbies{
     width: 100% ;
-    background-image: url(./Images/handmade-embroidery-3772487.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    
 }
 #actualhobbies > div >img{
     width: 20%;
     padding: 2%;
     border: 3px solid black;
-    background-image: url(./Images/close-up-photography-of-two-clothespins-776633.jpg);
     background-repeat: no-repeat;
+    background-image: url(./Images/close-up-photography-of-two-clothespins-776633.jpg);
     background-size: cover;
 }
 #reading{
-    position: relative;
-    left: 20%;
-    top: 110px;
-   
-   
+  color:#eeeeee;
+  position: relative;
+  top: 90px; 
 }
 #medical{
+    color: #eeeeee;
     position: relative;
-    top: 60px;
-    right: 1%;
-    transform: rotate(330deg);
+    bottom: 200px;
+    
 }
 #music{
-    position: relative;
-    left: 65%;
-    bottom: 420px;
-    transform: rotate(5deg);
+    color: #eeeeee;
 }
 #watching{
-    position: relative;
-    left: 65%;
-    bottom: 22px;
-    transform: rotate(30deg);
+  color: #eeeeee;
+  position: relative;
+  bottom: 330px;
+    
 }
 
 #footer{
     position: absolute;
     top: 387%;
-    width: 100%;
-    text-align: center;
-    background-color: #eeeeee;
     height: 40%;
-}
+} 
              
-#icons > a{
-    margin-right: 2%;
-    margin-left: 2%;
-    
-}
-#icons{
-    margin-top: 8%;
-    margin-bottom: 2%;
-}
-a{
-    color: black;
-    text-decoration: none;
-}
-a:hover{
-    color: blue;
-}
+
 
 }
