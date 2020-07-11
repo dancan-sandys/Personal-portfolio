@@ -1,4 +1,37 @@
+nav{background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom:16px;
+    width: 100%;
+}
 
+ul{display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    height:80px;
+}
+
+li{
+    padding: 5%;
+}
+ul > h1{
+    padding: 3%;
+}
+
+
+.firstpagetext{
+    text-align: center;                    
+    width: 100%;
+}  
+
+
+
+
+
+
+@media screen and (min-width:500px){
 body{
     overflow-x: hidden;
     background-image: url(./Images/books-sculpture-write-reading-34627\ \(1\).jpg);
