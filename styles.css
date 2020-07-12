@@ -76,6 +76,10 @@ ul > h1{
     
 }
 
+p > a:hover{
+ color:blueviolet ;    
+}
+
 #Skills > h1{
   text-align: center;
 }
@@ -178,10 +182,10 @@ body{
     background-repeat: no-repeat;
     
 }
-
 li{
      padding: 8%;
 }
+
    
 ul > h1{
          padding: 8%;
