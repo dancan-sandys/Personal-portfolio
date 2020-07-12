@@ -16,4 +16,5 @@ Incase of any issues accessing the portfolio please contact: +254701824796
 
 ### License
 *The webapp is compatible with all devices and all OS's, consistent improvements are being made*
+
 Copyright (c) 2020 **Dancan Sandys Oruko**
